@@ -1,6 +1,29 @@
-//Deyishiklik
+body{
+  padding: 0;
+  margin: 0;
+}
+.bringToCenter{
+    margin: 0 auto;
+}
+.pulLeft{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.backcolor{
+    background-color: darkgray;
+}
+.cevir{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+/*Deyishiklik*/
 
-//pozulan hisse
+/*pozulan hisse*/
 #Section
 {
     width: 364px;
@@ -37,16 +60,16 @@
 }
 #Left{
     border-left:2px solid black;
-    
+
 }
 #Right{
     border-right:2px solid black;
-    
+
 }
 #Bottom{
     border:2px solid black;
     border-top: 0px;
-    
+
 }
 
 #Main{
@@ -56,7 +79,7 @@
 #Main ul li{
     width: 40px;
     height: 40px;
-    float:left; 
+    float:left;
 }
 #Main ul:nth-child(odd) li:nth-child(odd){
     background: white;
@@ -77,5 +100,5 @@ h1{
     text-align: center;
     font-family: Arial;
     font-size: 40px;
-    
+
 }
