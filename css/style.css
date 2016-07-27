@@ -1,0 +1,103 @@
+html,body{
+    margin:0;
+    padding:0;
+    background: lightgray;
+}
+.bringToCenter{
+    margin: 0 auto;
+}
+.pulLeft{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.backcolor{
+    background-color: darkgray;
+}
+.cevir{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#Section
+{
+    width: 364px;
+    height: 364px;
+    margin-top:111px;
+}
+.SetirUl{
+    width: 360px;
+    height: 20px;
+}
+.SutunUl{
+    width: 20px;
+    height: 320px;
+}
+#Top ul li ,#Bottom ul li{
+    width: 40px;
+    height: 20px;
+    float: left;
+}
+#Bottom ul{
+    margin-left: 40px;
+}
+#Left ul  li ,#Right ul li{
+    width: 20px;
+    height: 40px;
+    text-align: center;
+}
+#Left ul  li a,#Right ul li a{
+    line-height: 40px;
+}
+#Top{
+    border:2px solid black;
+    border-bottom: 0px;
+}
+#Left{
+    border-left:2px solid black;
+    
+}
+#Right{
+    border-right:2px solid black;
+    
+}
+#Bottom{
+    border:2px solid black;
+    border-top: 0px;
+    
+}
+
+#Main{
+    width: 320px;
+    height: 320px;
+}
+#Main ul li{
+    width: 40px;
+    height: 40px;
+    float:left; 
+}
+#Main ul:nth-child(odd) li:nth-child(odd){
+    background: white;
+}
+#Main ul:nth-child(odd) li:nth-child(even){
+    background: black;
+}
+#Main ul:nth-child(even) li:nth-child(odd){
+    background: black;
+}
+#Main ul:nth-child(even) li:nth-child(even){
+    background: white;
+}
+
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    
+}
